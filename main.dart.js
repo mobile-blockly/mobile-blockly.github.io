@@ -54002,20 +54002,20 @@ h=q.y
 B.f3.Ha(h,"")
 B.f3.EO(h,"beforeend",A.a72("<style>\nhtml,\nbody {\n  height: 100%;\n  margin: 0;\n  padding: 0;\n  background-color: #fff;\n}\n.wrapper {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  height: 100%;\n  min-width: 320px;\n  min-height: 320px;\n  background-color: #fff;\n  box-sizing: border-box;\n}\n.wrap-container {\n  display: flex;\n  flex: 1 0 auto;\n  flex-direction: column;\n  box-sizing: border-box;\n}\n"+e+"\n</style>\n","style"))
 B.f3.W4(h,"beforeend","<div class='wrapper '>\n  \n  <div id='blocklyEditor' class='wrap-container'></div>\n</div>\n")
-p=["dart_compressed","javascript_compressed","lua_compressed","php_compressed","python_compressed","html_script"]
+p=["dart_compressed","javascript_compressed","lua_compressed","php_compressed","python_compressed","en","html_script"]
 s=i==null?2:3
 break
 case 2:$.afF()
 $.xg().wu("blocklyEditor",new A.LP(q),!0)
 g=A
 s=4
-return A.a1($.xl().F4("packages/flutter_blockly/assets/blockly.min.js"),$async$mM)
+return A.a1($.xl().F4("packages/flutter_blockly/assets/blockly_compressed.js"),$async$mM)
 case 4:o=g.a72(a0,"script")
 o.id="blocklyScript"
 h=j.body
 if(h!=null)B.cX.EO(h,"beforeend",o)
 n=0
-case 5:if(!(n<6)){s=7
+case 5:if(!(n<7)){s=7
 break}m=p[n]
 h=j.body
 s=h!=null?8:9
